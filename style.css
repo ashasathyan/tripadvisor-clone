@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'gabarito','sans-serif';
+}
+.navbar{
+    padding:10px;
+    display:flex;
+    flex-direction: row;
+    gap:10px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+.img-trip{
+    width: 40px;
+    border-radius: 50%;
+}
+.navbar__s1{
+    display:flex;
+    gap:10px;
+    padding:10px;
+    align-items: center;
+}
+.navbar__s2{
+    display: flex;
+    gap:20px;
+    padding:10px;
+    align-items: center;
+    
+    
+}
+.navbar__s3{
+    display:flex;
+    gap:10px;
+    padding:10px;
+    align-items: center;
+
+}
+.navbar__s3 button{
+    background-color: black;
+    color:white;
+    border-radius: 15px;
+    height:40px;
+    width:80px;
+    cursor: pointer;
+}
+.searchbar h1{
+    font-size: 50px;
+    display: block;
+    text-align:center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 13%;
+    font-weight: light;
+    
+}
+.searchbar__s1{
+    display:flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 80px;
+    
+}
+.searchbar__s2{
+    padding:10px;
+    border-radius: 30px;
+    width:50%;
+    border:#e0e0e0 solid 2px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height:50px;
+    
+    
+
+}
+.searchbar__s2 input{
+    border:none;
+    width:100%;
+    font-size: 15px;
+    background-color: transparent;
+}
+.searchbar__s2 input:focus{
+    outline:none;
+}
+.search_btn{
+    background-color: #34e0a1;
+    color:black;
+    border:none;
+    border-radius: 25px;
+    padding:20px 30px;
+    cursor:pointer;
+
+}
+.trip-img1{
+    display:flex;
+    justify-content: center;
+    gap:10px;
+    padding-top: 20px;
+
+}
+.trip-img1 img{
+    width:80%;
+    height:50%;
+    border-radius: 2%;
+
+}
+
+.top-rated h2{
+    display:block;
+    margin-top: 20px;
+  
+}
+.top-rated p{
+    display:block;
+    margin-top: 10px;
+    padding-bottom: 10px;
+
+}
+.top-rated{
+    padding-left: 10%;
+    padding-top: 10px;
+}
+.topcontainer-s1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 30%;
+    gap:20px;
+    
+
+}
+.top-card{
+    position: relative;  /* Needed for absolute positioning of the overlay */
+  flex: 1 1 200px;  /* Flex item with flexible width (minimum 200px) */
+  max-width: 300px;
+    
+}
+.top-card img{
+    width: 100%;
+  height: auto;
+  display: block;
+
+}
+.title-overlay{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-60%, -50%);
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px;
+  border-radius: 5px;
+    
+}
+.top-card__s1{
+    text-align: center;
+}
+.biker{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #f2ecf9;
+    margin:10px;
+    
+
+}
+.biker__s1{
+    align-items: center;
+    
+}
+.biker p{
+    font-size: 20px;
+
+    
+}
+.biker img{
+    width:50%;
+    height:auto;
+    margin:30px;
+}
+.biker i button{
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+    padding:10px;
+    cursor:pointer;
+}
+
+.footer{
+    background-color:#f2f2f2;
+    padding:20px;
+    margin-top: 20px;  
+
+}
+.footerone{
+    display: flex;
+    padding-left: 10px;
+    
+}
+.footertwo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footerone__s1,.footerone__s2,.footerone__s3{
+    padding: 10px;
+    
+}
+.footerone__s1 h4,.footerone__s2 h4,.footerone__s3 h4{
+    padding-bottom: 5px;
+}
+
+
